@@ -34,7 +34,6 @@ class App extends React.Component {
     const { posts, search } = this.state;
     return (
       <div>
-        {console.log(posts)}
         <button onClick={this.addInput}>Add input</button>
         <br />
         {this.state.inputs.map((i) => {
@@ -47,6 +46,8 @@ class App extends React.Component {
             </>
           );
         })}
+
+        {/* search & get api */}
         <input onChange={this.handle} value={search} />
         <div>
           {posts
