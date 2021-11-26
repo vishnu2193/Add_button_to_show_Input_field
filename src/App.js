@@ -62,6 +62,12 @@ class App extends React.Component {
                 </div>
               );
             })}
+
+          {/*          {counter > 1 ? (
+                  <input />
+                ) : (
+                  <input value={item.price} disabled />
+                )}     */}
         </div>
       </div>
     );
