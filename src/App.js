@@ -11,6 +11,7 @@ class App extends React.Component {
       search: ""
     };
   }
+
   componentDidMount() {
     axios({
       url: `https://jsonplaceholder.typicode.com/posts`,
@@ -30,10 +31,17 @@ class App extends React.Component {
   handle = (e) => {
     this.setState({ search: e.target.value });
   };
+
   render() {
+    var person = require("./Sample.js");
     const { posts, search } = this.state;
     return (
       <div>
+        {console.log(person.firstName + " " + person.lastName)}
+        <h1>
+          {person.firstName}
+          {person.lastName}
+        </h1>
         <button onClick={this.addInput}>Add input</button>
         <br />
         {this.state.inputs.map((i) => {
