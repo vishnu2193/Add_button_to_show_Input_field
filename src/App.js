@@ -4,7 +4,8 @@ import axios from "axios";
 class App extends React.Component {
   constructor(props) {
     super(props);
-
+    // props from sample.js
+    console.log(this.props.name);
     this.state = {
       inputs: [],
       posts: [],
@@ -25,6 +26,7 @@ class App extends React.Component {
         console.log(err);
       });
   }
+
   addInput = (ev) => {
     this.setState((prev) => ({ inputs: [...prev.inputs, "HI"] }));
   };
@@ -37,10 +39,10 @@ class App extends React.Component {
     const { posts, search } = this.state;
     return (
       <div>
-        {console.log(person.firstName + " " + person.lastName)}
         <h1>
           {person.firstName}
           {person.lastName}
+          {this.props.name}
         </h1>
         <button onClick={this.addInput}>Add input</button>
         <br />
