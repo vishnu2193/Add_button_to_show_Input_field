@@ -61,13 +61,16 @@ class App extends React.Component {
         <input onChange={this.handle} value={search} />
         <div>
           {posts
-            .filter((item) =>
-              item.title.toLowerCase().includes(search.toLowerCase())
+            .filter(
+              (item) =>
+                item.title.toLowerCase().includes(search.toLowerCase()) ||
+                item.body.toLowerCase().includes(search.toLowerCase())
             )
             .map((item) => {
               return (
                 <div>
                   <p>{item.title}</p>
+                  <p>{item.body}</p>
                   <p>{item.id}</p>
                 </div>
               );
