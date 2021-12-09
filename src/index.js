@@ -7,7 +7,7 @@ import Imagedelete from "./Imagedelete";
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
-    <App name="vishnu" />
+    <Imagedelete />
   </StrictMode>,
   rootElement
 );

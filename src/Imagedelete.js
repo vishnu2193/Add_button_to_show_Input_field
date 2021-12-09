@@ -31,15 +31,19 @@ class Imagedelete extends React.Component {
   //}
 
   render() {
-    const listItem = this.state.data.map((item) => {
-      return (
-        <div key={item.id}>
-          <span>{item.name}</span>{" "}
-          <button onClick={this.delete.bind(this, item)}>Delete</button>
-        </div>
-      );
-    });
-    return <div>{listItem}</div>;
+    const { data } = this.state;
+    return (
+      <>
+        {data.map((item) => {
+          return (
+            <div>
+              <h2>{item.name}</h2>
+              <button onClick={this.delete.bind(this, item)}>Delete</button>
+            </div>
+          );
+        })}
+      </>
+    );
   }
 }
 
