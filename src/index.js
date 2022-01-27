@@ -7,11 +7,11 @@ import Header from "./Header";
 import HideShow from "./HideShow";
 import Emailvalid from "./Emailvalid";
 import "bootstrap/dist/css/bootstrap.css";
-
+import Cusol from "./Cusol";
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
-    <Emailvalid />
+    <Cusol />
   </StrictMode>,
   rootElement
 );
