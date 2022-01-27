@@ -4,7 +4,7 @@ import "./Cusol.css";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 
-export default class SimpleSlider extends Component {
+class Cusol extends Component {
   render() {
     const settings = {
       dots: true,
@@ -172,3 +172,5 @@ export default class SimpleSlider extends Component {
     );
   }
 }
+
+export default Cusol;
