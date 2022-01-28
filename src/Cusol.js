@@ -45,50 +45,50 @@ class Cusol extends Component {
         <Slider {...settings}>
           <div>
             <img
-              src="http://static.facegfx.com/2012/beautiful-banner-background-05-hd-pictures_959136987.jpg"
+              src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202111/Allu_Arjun_Pushpa_trailer_Dece_1200x768.jpeg?4dTpH4sGreQi4ImOZVMHCUnZQ0Otc81C&size=770:433"
               alt="Girl in a jacket"
               width="100%"
-              height="200"
+              height="400"
             />
           </div>
           <div>
             <img
-              src="https://i.pinimg.com/originals/30/d0/94/30d09446755fc2c066dc146f8b05c897.png"
+              src="https://chitraseema.org/wp-content/uploads/2021/12/32DF686B-D2E4-4400-9006-5B12F135E6F3.jpeg"
               alt="Girl in a jacket"
               width="100%"
-              height="200"
+              height="400"
             />
           </div>
           <div>
             <img
-              src="https://swall.teahub.io/photos/small/15-156996_background-flex-banner-design.jpg"
+              src="https://www.cinejosh.com/reviewsimg/big/shyam-singha-roy-review_b_2412210135.jpg"
               alt="Girl in a jacket"
               width="100%"
-              height="200"
+              height="400"
             />
           </div>
           <div>
             <img
-              src="https://c0.wallpaperflare.com/preview/931/255/701/banner-digital-graphics-lion.jpg"
+              src="https://m.media-amazon.com/images/M/MV5BZjY2MWYzYjMtYTQ2OS00MDhlLWFhNjYtOGYxYzNmMzJjMzNmXkEyXkFqcGdeQXVyODEyNjEwMDk@._V1_.jpg"
               alt="Girl in a jacket"
               width="100%"
-              height="200"
+              height="400"
             />
           </div>
           <div>
             <img
-              src="https://png.pngtree.com/thumb_back/fh260/back_pic/00/09/35/05562e22f650e30.jpg"
+              src="https://i.ytimg.com/vi/zfdqIB2vToE/maxresdefault.jpg"
               alt="Girl in a jacket"
               width="100%"
-              height="200"
+              height="400"
             />
           </div>
           <div>
             <img
-              src="https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg"
+              src="https://www.thehansindia.com/content/servlet/RDESController?command=rdm.Picture&sessionId=RDWEB1AIKXTDV89KYQWWHPZVMVAGIZLKGW0FO&app=rdes&partner=hansindia&type=7&uid=2112876nnOY78IW0fUCi2irwMxAmGr8vaxkDY2654688"
               alt="Girl in a jacket"
               width="100%"
-              height="200"
+              height="400"
             />
           </div>
         </Slider>
